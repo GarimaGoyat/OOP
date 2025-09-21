@@ -4,6 +4,38 @@ to calculate the number of fruits in a basket. Create
  number of apples and mangoes in the basket. Print the number of 
  fruits of each type and the total number of fruits in the basket.*/
 
+
+ 
+/*
+class fruit{
+    public:
+    static int f;
+};
+int fruit::f=0;
+class apples{
+    public:
+    int a;
+    apples(int x){
+        a=x;
+        fruit::f+=a;
+    }
+};
+class mangoes{
+    public:
+    int m;
+    mangoes(int x){
+        m=x;
+        fruit::f+=m;
+    }
+};
+int main(){
+    apples obja(5);
+    mangoes objm(6);
+    cout<<obja.a<<" "<<objm.m<<" "<<fruit::f<<'\n';
+    return 0;
+}*/
+
+
  #include <iostream>
 using namespace std;
 

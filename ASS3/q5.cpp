@@ -52,6 +52,7 @@ int main() {
     cout << "\nAfter swapping:" << endl;
     objA.display();
     objB.display();
+    //  cout<<objA.valueA<<" "<<objB.valueB; -> can do this if valueA and valueB are public
 
     return 0;
 }
