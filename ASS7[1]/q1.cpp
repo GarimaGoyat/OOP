@@ -21,4 +21,5 @@ int main() {
 
     ++obj;     // calls operator++()
     obj.show();  
+    return 0;
 }
