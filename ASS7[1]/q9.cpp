@@ -17,3 +17,6 @@ int main(){
     float a = t;   // object → float
     cout << a;
 }
+/*
+So float a=t; automatically calls:a = t.operator float();
+*/

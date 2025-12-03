@@ -4,9 +4,9 @@ using namespace std;
 class Time {
     int h, m, s;
 public:
-    Time(int a=0, int b=0, int c=0){
-        h = a; m = b; s = c;
-    }
+    Time(int a=0, int b=0, int c=0){    //It means default values for the parameters.
+        h = a; m = b; s = c;            //So the constructor can be called in many ways
+    }                                   //Time t(5);   // a=5, b=0, c=0
 
     Time operator+(Time &t){
         Time temp;

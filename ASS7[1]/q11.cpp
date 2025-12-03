@@ -15,6 +15,6 @@ public:
 
 int main(){
     Array arr;
-    arr[2] = 10;   // valid
+    arr[2] = 10;   // valid     //  C++ translates it into: arr.operator = 10;
     cout << arr[2];
 }
